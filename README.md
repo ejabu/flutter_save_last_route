@@ -1,7 +1,9 @@
 # Save Last Route
 
 A Flutter app that demonstrates saving last screen and re-navigate to it at 
-next app start. See [demo](#demo)
+next app start. 
+
+For demo, you may look here. [Example Screen Flow](#demo)
 
 ## A. Navigation
 
@@ -60,7 +62,8 @@ Therefore, we will have more code and it will be harder to manage.
 
 ### 2. Listening on Route Changes using `Route observer`
 
-Nonetheless, Flutter provides on MaterialApp, we can have some "`middleware`" to capture those changes on route stacks.
+Nonetheless, Flutter provides on MaterialApp, that we can have some "`middleware`" 
+to capture those changes on route stacks.
 
 We may have this on our MyApp widget :
 
@@ -159,3 +162,5 @@ class _BaseScreenState extends State<BaseScreen> {
 
 ## Demo
 ![Demo](demo.gif)
+
+Saving and Opening Screen Beta and Screen Delta in different starts
